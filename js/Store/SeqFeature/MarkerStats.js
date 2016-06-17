@@ -88,7 +88,8 @@ return declare( SeqFeatureStore, {
 
     },
     processFeat: function( f ) {
-    	var score = f.PVALUE.toExponential(2)
+    	//var score = f.PVALUE.toExponential(2)
+    	var score = -1*Math.log(f.PVALUE)
         var feature = new SimpleFeature({
                 id: f.DBSNP_ID,
                 data: {
