@@ -24,7 +24,7 @@ var PydginXY = declare( [WiggleBase, YScaleMixin],
             dojo.clone( this.inherited(arguments) ),
             {
                 style: {
-                    pos_color: 'blue',
+                    pos_color: 'rgb(0,102,51)',
                     neg_color: 'red',
                     origin_color: '#888',
                     variance_band_color: 'rgba(0,0,0,0.3)'
