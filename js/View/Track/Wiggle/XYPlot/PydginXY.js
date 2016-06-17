@@ -108,7 +108,6 @@ var PydginXY = declare( [WiggleBase, YScaleMixin],
                 if( score <= originY ) {
                     // bar goes upward
                     context.fillStyle = this.getConfForFeature('style.pos_color',f);
-                    console.log(f)
                     var height = originY-score+1;
                     if(this.getConfForFeature('noFill', f) == true) {
                       height = 6;
